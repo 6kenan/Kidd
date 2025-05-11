@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- 基德变装成医生形象 -->
+  <rect width="300" height="300" fill="#f5f5f5"/>
+  
+  <!-- 头发 -->
+  <path d="M100 80 Q150 60 200 80 L200 120 Q150 140 100 120 Z" fill="#3e2723"/>
+  
+  <!-- 脸部 -->
+  <circle cx="150" cy="150" r="40" fill="#ffe0b2"/>
+  
+  <!-- 眼睛 -->
+  <circle cx="135" cy="145" r="5" fill="#3e2723"/>
+  <circle cx="165" cy="145" r="5" fill="#3e2723"/>
+  
+  <!-- 嘴巴 -->
+  <path d="M140 165 Q150 175 160 165" fill="none" stroke="#d32f2f" stroke-width="2"/>
+  
+  <!-- 医生白大褂 -->
+  <path d="M110 190 L190 190 L200 300 L100 300 Z" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- 听诊器 -->
+  <path d="M130 200 C120 220 120 240 130 260" fill="none" stroke="#424242" stroke-width="3"/>
+  <path d="M170 200 C180 220 180 240 170 260" fill="none" stroke="#424242" stroke-width="3"/>
+  <circle cx="130" cy="265" r="8" fill="#424242"/>
+  <circle cx="170" cy="265" r="8" fill="#424242"/>
+  <path d="M130 265 L170 265" fill="none" stroke="#424242" stroke-width="3"/>
+  
+  <!-- 口袋 -->
+  <rect x="170" y="210" width="20" height="30" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- 笔 -->
+  <rect x="175" y="212" width="3" height="20" fill="#1976d2"/>
+  <rect x="180" y="212" width="3" height="15" fill="#d32f2f"/>
+  
+  <!-- 名牌 -->
+  <rect x="120" y="210" width="30" height="15" fill="#f5f5f5" stroke="#424242" stroke-width="1"/>
+  <line x1="125" y1="215" x2="145" y2="215" stroke="#424242" stroke-width="1"/>
+  <line x1="125" y1="220" x2="140" y2="220" stroke="#424242" stroke-width="1"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="#263238" opacity="0.9"/>
+  
+  <!-- 月光 -->
+  <path d="M0,0 L400,0 L400,400 L0,400 Z" fill="url(#moonlight)"/>
+  <defs>
+    <radialGradient id="moonlight" cx="300" cy="100" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#263238" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- 怪盗基德特写 -->
+  <g transform="translate(200, 200)">
+    <!-- 帽子 -->
+    <path d="M0,-100 L-80,-80 L-90,-60 L-90,-40 L90,-40 L90,-60 L80,-80 Z" fill="#ffffff"/>
+    <rect x="-90" y="-40" width="180" height="10" fill="#1e88e5"/>
+    
+    <!-- 脸 -->
+    <ellipse cx="0" cy="20" rx="70" ry="80" fill="#ffebee"/>
+    
+    <!-- 单片眼镜 -->
+    <circle cx="25" cy="10" r="25" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <line x1="25" y1="-15" x2="25" y2="-40" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- 眼睛 -->
+    <ellipse cx="-20" cy="10" rx="12" ry="15" fill="#0d47a1"/>
+    <ellipse cx="25" cy="10" rx="12" ry="15" fill="#0d47a1"/>
+    
+    <!-- 神秘微笑 -->
+    <path d="M-25,50 Q0,70 25,50" fill="none" stroke="#d32f2f" stroke-width="3"/>
+    
+    <!-- 领带 -->
+    <path d="M0,100 L-15,130 L0,150 L15,130 Z" fill="#e53935"/>
+  </g>
+  
+  <!-- 玫瑰 -->
+  <g transform="translate(320, 250)">
+    <path d="M0,0 C5,-5 10,-5 15,0 C20,5 20,10 15,15 C10,20 5,20 0,15 C-5,10 -5,5 0,0 Z" fill="#e53935"/>
+    <path d="M0,0 C-5,-5 -10,-5 -15,0 C-20,5 -20,10 -15,15 C-10,20 -5,20 0,15 C5,10 5,5 0,0 Z" fill="#e53935"/>
+    <path d="M0,0 C5,-5 5,-10 0,-15 C-5,-20 -10,-20 -15,-15 C-20,-10 -20,-5 -15,0 C-10,5 -5,5 0,0 Z" fill="#e53935"/>
+    <path d="M0,0 C-5,-5 -5,-10 0,-15 C5,-20 10,-20 15,-15 C20,-10 20,-5 15,0 C10,5 5,5 0,0 Z" fill="#e53935"/>
+    <rect x="-2" y="15" width="4" height="40" fill="#4caf50"/>
+    <path d="M-2,25 L-10,20 M-2,35 L-8,30" fill="none" stroke="#4caf50" stroke-width="2"/>
+  </g>
+  
+  <!-- 扑克牌 -->
+  <g transform="translate(100, 250) rotate(15)">
+    <rect x="0" y="0" width="40" height="60" rx="3" fill="#ffffff" stroke="#0d47a1" stroke-width="1"/>
+    <text x="20" y="35" font-family="Arial" font-size="25" fill="#d32f2f" text-anchor="middle">K</text>
+    <text x="7" y="15" font-family="Arial" font-size="12" fill="#d32f2f">♠</text>
+    <text x="33" y="50" font-family="Arial" font-size="12" fill="#d32f2f">♠</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- 背景 -->
+  <rect width="300" height="300" fill="#e0f7fa"/>
+  
+  <!-- 头部 -->
+  <g transform="translate(150, 100)">
+    <!-- 头发/秃顶 -->
+    <path d="M-40,-20 C-40,-40 -20,-50 0,-50 C20,-50 40,-40 40,-20" fill="#9e9e9e"/>
+    
+    <!-- 脸 -->
+    <ellipse cx="0" cy="0" rx="40" ry="45" fill="#ffe0b2"/>
+    
+    <!-- 眼睛 -->
+    <ellipse cx="-15" cy="-10" rx="5" ry="5" fill="#424242"/>
+    <ellipse cx="15" cy="-10" rx="5" ry="5" fill="#424242"/>
+    
+    <!-- 眼镜 -->
+    <circle cx="-15" cy="-10" r="10" fill="none" stroke="#424242" stroke-width="2"/>
+    <circle cx="15" cy="-10" r="10" fill="none" stroke="#424242" stroke-width="2"/>
+    <line x1="-5" y1="-10" x2="5" y2="-10" stroke="#424242" stroke-width="2"/>
+    <line x1="-25" y1="-10" x2="-40" y2="-15" stroke="#424242" stroke-width="2"/>
+    <line x1="25" y1="-10" x2="40" y2="-15" stroke="#424242" stroke-width="2"/>
+    
+    <!-- 胡子 -->
+    <path d="M-20,20 Q0,30 20,20" fill="none" stroke="#424242" stroke-width="2"/>
+    <path d="M-30,15 L-10,15 M10,15 L30,15" fill="none" stroke="#424242" stroke-width="2"/>
+  </g>
+  
+  <!-- 身体 -->
+  <g transform="translate(150, 180)">
+    <!-- 西装 -->
+    <path d="M0,0 L-50,100 L50,100 Z" fill="#263238"/>
+    
+    <!-- 衬衫 -->
+    <path d="M-15,0 L0,30 L15,0" fill="#ffffff"/>
+    
+    <!-- 领带 -->
+    <path d="M0,0 L-5,30 L0,40 L5,30 Z" fill="#4caf50"/>
+    
+    <!-- 手臂 -->
+    <path d="M-50,50 L-80,30 L-70,20 L-40,40 Z" fill="#263238"/>
+    <path d="M50,50 L80,30 L70,20 L40,40 Z" fill="#263238"/>
+    
+    <!-- 手 -->
+    <circle cx="-80" cy="30" r="8" fill="#ffe0b2"/>
+    <circle cx="80" cy="30" r="8" fill="#ffe0b2"/>
+    
+    <!-- 台球杆 -->
+    <rect x="70" y="20" width="60" height="5" fill="#795548"/>
+  </g>
+  
+  <!-- 名字 -->
+  <text x="150" y="290" font-family="Arial, sans-serif" font-size="16" fill="#263238" text-anchor="middle">寺井黄之助</text>
+</svg>
